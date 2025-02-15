@@ -7,27 +7,31 @@
 }
 h2{
     margin-left: 100px;
-    font-size: 25px;
+    font-size: 28px;
 }
 .upper-row-top-part ul{
     list-style-type: none;
     display: flex;
-    margin-right: 200px;
+    margin-right: 300px;
     font-weight: 200;
-}
-ul{
+    margin-top: 30px;
+    font-size: 22px;
     gap:20px;
-    
 }
+.upper-row-top-part li:hover{
+    color: rgb(37, 107, 237);
+}
+
 .text-part h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 35px;
 }
 img{
     max-width: 600px;
     max-height: 500px;
     margin-left: 250px;
+    border-radius: 30px;
 }
 .text-part{
     display: flex;
@@ -36,6 +40,7 @@ img{
     margin-left: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
+    font-weight: 1000;
 }
 .text-box-top-part{
     display: flex;
@@ -56,14 +61,18 @@ img{
     margin-top: 70px;
 }
 #Get-One-Button{
-    background-color: rgb(134, 187, 239);
-    border-radius: 4px;
+    background-color: rgb(37, 107, 237);
+    border-radius: 10px;
     border: none;
-    border-color: rgb(134, 187, 239);
+    border-color: rgb(37, 107, 237);
     font-size: 20px;
     margin-left: 100px;
     padding: 15px;
-    color: rgb(41, 50, 61);
+    color:  bisque;
+}
+#Get-One-Button:hover{
+    background-color: bisque;
+    color: rgb(37, 107, 237); 
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -79,7 +88,7 @@ p{
     margin-top: 90px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .middle-part-image-and-textbox img{
     max-width: 400px;
@@ -132,4 +141,49 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -50px;
     margin-left: 700px;
+}
+.call-to-action-part{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+    
+}
+.border-part{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 20px solid rgb(37, 107, 237);
+    border-radius: 20px;
+    background-color: rgb(37, 107, 237);
+    color: bisque;
+    flex-shrink: 0;
+    min-width: 1100px;
+}
+.border-part button{
+    margin-top: 60px;
+    margin-left: 120px;
+    font-size: 21px;
+    border: 3px solid bisque;
+    background-color: rgb(37, 107, 237);
+    color: bisque;
+    width: 150px;
+    border-radius: 8px;
+    height: 50px;
+}
+.border-part button:hover{
+    background-color: bisque;
+    color: rgb(37, 107, 237); 
+}
+.border-part-text-part{
+    margin-left: 30px;
+}
+.footer-part{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(14, 14, 15, 0.887);
+    color: bisque;
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
